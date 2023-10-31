@@ -1,0 +1,31 @@
+.horizontalCardHolder {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .horizontalCard {
+    width: 70vh;
+    height: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E5E4E2;
+  }
+  .horizontalCard:first-child {
+    background-color: white;
+  }
+  
+  .cardContent {
+    padding: 0 30px;
+  }
+  
+  .cardContent h2 {
+    padding: 30px 0;
+  }
+  
+  .horizontalCard img {
+    width: 50%;
+    height: 100%;
+  }
