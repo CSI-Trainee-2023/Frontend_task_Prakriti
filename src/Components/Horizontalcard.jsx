@@ -9,6 +9,7 @@ export default function HorizontalCard(props) {
         <button>View Details</button>
       </div>
     </div>
+    
   )
 }
 
