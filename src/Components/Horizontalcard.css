@@ -13,10 +13,6 @@
     align-items: center;
     background-color: #E5E4E2;
   }
-  .horizontalCard:first-child {
-    background-color: white;
-  }
-  
   .cardContent {
     padding: 0 30px;
   }

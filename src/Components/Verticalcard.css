@@ -1,3 +1,7 @@
+.verticalCardSection{
+    margin: 1.1vw;
+    position: relative;
+  }
 .verticalCard {
     display: flex;
     flex-direction: column;
@@ -16,7 +20,6 @@
   .verticalCard img {
     width: 100px;
   }
-  
   .verticalCard img:first-child {
     width: 300px;
   }

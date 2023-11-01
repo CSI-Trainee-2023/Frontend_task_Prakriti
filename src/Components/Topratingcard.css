@@ -1,22 +1,30 @@
 .topRatingCardHolder {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .topRatingCard {
-    background-color: white;
-    margin: 20px;
-    display: flex;
-    width: 400px;
-  }
-  
-  .topRatingCard img {
-    width: 150px;
-  }
-  .topRatingCardPrice{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.topRatingCard {
+  background-color: white;
+  margin: 20px;
+  display: flex;
+  width: 400px;
+}
+
+.topRatingCard img {
+  width: 150px;
+}
+.topRatingCardPrice{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.topRatingCardPrice h3{
+  font-size: 0.9rem;
+  text-align: center;
+}
+.topRatingCardPrice h2{
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
