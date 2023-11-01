@@ -41,18 +41,18 @@
     list-style-type: none;
   }
   
-  .links {
+  .socialMediaIcons {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
   
-  .links img {
+  .socialMediaIcons img {
     padding: 60px 25px 0 25px;
     height: 25px;
   }
   
-  .links img:first-child {
+  .socialMediaIcons img:first-child {
     padding-left: 0;
   }
   

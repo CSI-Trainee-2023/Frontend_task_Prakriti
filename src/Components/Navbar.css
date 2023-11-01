@@ -24,27 +24,13 @@
 }
 
 .logo img{
-   width:26%;
-}
-.icons{
-    width: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   width:24%;
 }
 .icons img{
     width:24%;
-} 
-ul:first-child {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-  }
+}
   
-  ul li {
+  a {
     cursor: pointer;
     color: black;
     padding: 10px 0;

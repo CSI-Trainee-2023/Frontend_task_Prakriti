@@ -10,7 +10,7 @@ export default function Footer() {
         <p id="address">121 King Street, Melbourne 3000</p>
         <p id="contact">+12 3 0000 0000</p>
         <p id="mail">contact@brandemail.com</p>
-        <div className="links">
+        <div className="socialMediaIcons">
           <img src="../src/assets/Icons/facebook.png" alt="" />
           <img src="../src/assets/Icons/twitter.png" alt="" />
           <img src="../src/assets/Icons/insta.png" alt="" />

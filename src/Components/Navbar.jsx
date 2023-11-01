@@ -10,22 +10,17 @@ const Navbar = () => {
         <div className="logo">
         <img src={brandLogo} alt="" />
         </div>
-        <div className="icons">
-        <img src={profileIcon} alt="" />
-        <img src={cartIcon} alt="" />
-        </div>
       </div>
       <div className="lowerNav">
-        <ul>
-        <li>HOME</li>
-        <li>STORE</li>
-        <li>ACCESSORIES</li>
-        <li>BRAND</li>
-        <li>PAGES</li>
-        <li>ABOUT US</li>
-        <li>NEWS</li>
-        <li>CONTACT US</li>
-        </ul>
+        <a>HOME</a>
+        <a>STORE</a>
+        <a>ACCESSORIES</a>
+        <a>BRAND</a>
+        <a>PAGES</a>
+        <a>ABOUT US</a>
+        <a>NEWS</a>
+        <a>CONTACT US</a>
+    
        </div>
     </>
   )
