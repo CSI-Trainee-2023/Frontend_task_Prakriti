@@ -1,8 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 import brandLogo from "../assets/icons/brandLogo.png"
-import profileIcon from "../assets/icons/profile.png"
-import cartIcon from "../assets/icons/cart.png"
+
 const Navbar = () => {
   return (
     <>
