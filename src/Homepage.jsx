@@ -5,11 +5,25 @@ import Horizontalcard from "./Components/Horizontalcard"
 import Verticalcard from "./Components/Verticalcard"
 import Topratingcard from "./Components/Topratingcard"
 import Footer from "./Components/Footer"
+import bannerImage from "./assets/Products/bannerImage.png"
+import bedSheet from "./assets/Products/bedSheet.png"
+
 const Homepage = () => {
   return (
     <>
       <Navbar />
-      <SearchBar />  
+      <SearchBar /> 
+
+      <div className="banner">
+               <img src={bannerImage} alt="" />  
+                  <div className="content">
+                    <h3>HOT DEALS THIS WEEK</h3>
+                    <h1>SALE 50% OFF MODERN FURNITURE</h1>
+                    <button id="details">VIEW DETAILS</button>
+                </div>
+        </div>  
+
+
       <div className="horizontalCardHolder">
                 <Horizontalcard image="../src/assets/Products/vintageChair.png" title="VINTAGE CHAIR" />
                 <Horizontalcard image="../src/assets/Products/vase.png" title="LARGE TERRACOTA VASE" />
@@ -23,7 +37,16 @@ const Homepage = () => {
                 <Verticalcard image="../src/assets/Products/juteMat.png" title="Round Jute Placemat" />
                 <Verticalcard image="../src/assets/Products/metalBasket.png" title="Metal Wire Basket" />
                 <Verticalcard image="../src/assets/Products/towel.png" title="Boho Chic" />
-        </div> 
+      </div>
+
+              <div className="bedSheetSection">
+                <img src={bedSheet} alt="" />
+                <div className="overImageContent">
+                    <h2>BEDSHEET SETS</h2>
+                    <h3>$50.0 <span>$220.0</span></h3>
+                    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta iste est exercitationem</h4>
+                </div>
+              </div> 
         <div className="topRatingCardHolder">
                 <Topratingcard image="../src/assets/Products/tray.png" title="Tray with Foot" />
                 <Topratingcard image="../src/assets/Products/cushion.png" title="Twill Seat Cushion " />
@@ -35,6 +58,7 @@ const Homepage = () => {
                 <Topratingcard image="../src/assets/Products/ceramicCups.png" title="4-pack Ceramic Cups" />
                 <Topratingcard image="../src/assets/Products/stonewareplate.png" title="Glazed Stoneware Plate" />
         </div>
+        
 
 
           
