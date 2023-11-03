@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .promotion{
   width: 90%;
   margin: 100px auto;
@@ -118,3 +123,4 @@ span {
   font-size: 1.2rem;
   text-decoration: line-through;
 }
+

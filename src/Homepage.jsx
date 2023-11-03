@@ -28,7 +28,7 @@ const Homepage = () => {
                 <Horizontalcard image="../src/assets/Products/vintageChair.png" title="VINTAGE CHAIR" />
                 <Horizontalcard image="../src/assets/Products/vase.png" title="LARGE TERRACOTA VASE" />
             </div>
-      <div className="verticalCardHolder">
+       <div className="verticalCardHolder">
                 <Verticalcard image="../src/assets/Products/towel.png" title="Linen Beach Towel" />
                 <Verticalcard image="../src/assets/Products/juteMat.png" title="Round Jute Placemat" />
                 <Verticalcard image="../src/assets/Products/squareBox.png" title="Square Clear Glass Box" />
@@ -47,7 +47,7 @@ const Homepage = () => {
                     <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta iste est exercitationem</h4>
                 </div>
               </div> 
-        <div className="topRatingCardHolder">
+      {/*  <div className="topRatingCardHolder">
                 <Topratingcard image="../src/assets/Products/tray.png" title="Tray with Foot" />
                 <Topratingcard image="../src/assets/Products/cushion.png" title="Twill Seat Cushion " />
                 <Topratingcard image="../src/assets/Products/beverageGlass.png" title="Fluted Beverage Glass" />
@@ -57,9 +57,10 @@ const Homepage = () => {
                 <Topratingcard image="../src/assets/Products/napkins.png" title="2-pack Linen Napkins" />
                 <Topratingcard image="../src/assets/Products/ceramicCups.png" title="4-pack Ceramic Cups" />
                 <Topratingcard image="../src/assets/Products/stonewareplate.png" title="Glazed Stoneware Plate" />
-        </div>
+  </div> */}
         
 
+      <Topratingcard />
 
           
         <div className="promotion">
